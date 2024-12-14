@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ashrakat Café </title>
+    <link rel="stylesheet" href="cafe.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1> Ashrakat Café</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#coffee">Coffee</a></li>
+                <li><a href="#juices">Juices</a></li>
+                <li><a href="#cakes">Cakes</a></li>
+                <li><a href="#bakery">Bakery</a></li>
+                <li><a href="#croissants">Croissants</a></li>
+                <li><a href="#reservation">Reservation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="coffee">
+            <h2>Our Coffee</h2>
+            <div class="menu-item">
+                <h3>Espresso</h3>
+                <p>A strong and rich coffee shot.</p>
+                <span class="price">$3.00</span>
+            </div>
+            <div class="menu-item">
+                <h3>Latte</h3>
+                <p>Smooth espresso with steamed milk.</p>
+                <span class="price">$4.50</span>
+            </div>
+            <div class="menu-item">
+                <h3>Cappuccino</h3>
+                <p>Espresso, steamed milk, and foam.</p>
+                <span class="price">$4.00</span>
+            </div>
+        </section>
+
+        <section id="juices">
+            <h2>Refreshing Juices</h2>
+            <div class="menu-item">
+                <h3>Orange Juice</h3>
+                <p>Freshly squeezed orange juice.</p>
+                <span class="price">$2.50</span>
+            </div>
+            <div class="menu-item">
+                <h3>Apple Juice</h3>
+                <p>Pure apple juice for a healthy boost.</p>
+                <span class="price">$2.80</span>
+            </div>
+            <div class="menu-item">
+                <h3>Carrot Juice</h3>
+                <p>Healthy and fresh carrot juice.</p>
+                <span class="price">$3.00</span>
+            </div>
+        </section>
+
+        <section id="cakes">
+            <h2>Delicious Cakes</h2>
+            <div class="menu-item">
+                <h3>Chocolate Cake</h3>
+                <p>Rich chocolate cake with creamy frosting.</p>
+                <span class="price">$5.00</span>
+            </div>
+            <div class="menu-item">
+                <h3>Vanilla Cake</h3>
+                <p>Classic vanilla cake with a delicate flavor.</p>
+                <span class="price">$4.50</span>
+            </div>
+            <div class="menu-item">
+                <h3>Red Velvet Cake</h3>
+                <p>Soft, red cake with cream cheese frosting.</p>
+                <span class="price">$5.50</span>
+            </div>
+        </section>
+
+        <section id="bakery">
+            <h2>Bakery</h2>
+            <div class="menu-item">
+                <h3>Bagels</h3>
+                <p>Freshly baked bagels with various toppings.</p>
+                <span class="price">$2.00</span>
+            </div>
+            <div class="menu-item">
+                <h3>Baguette</h3>
+                <p>Classic French baguette with a crispy crust.</p>
+                <span class="price">$3.50</span>
+            </div>
+            <div class="menu-item">
+                <h3>Pastries</h3>
+                <p>Flaky and buttery pastries.</p>
+                <span class="price">$2.50</span>
+            </div>
+        </section>
+
+        <section id="croissants">
+            <h2>Fresh Croissants</h2>
+            <div class="menu-item">
+                <h3>Butter Croissant</h3>
+                <p>Soft and buttery croissant for your morning delight.</p>
+                <span class="price">$2.80</span>
+            </div>
+            <div class="menu-item">
+                <h3>Almond Croissant</h3>
+                <p>Sweet almond filling inside a flaky croissant.</p>
+                <span class="price">$3.50</span>
+            </div>
+            <div class="menu-item">
+                <h3>Chocolate Croissant</h3>
+                <p>Rich chocolate filling in a perfect croissant.</p>
+                <span class="price">$3.80</span>
+            </div>
+        </section>
+
+        <section id="reservation">
+            <h2>Make a Reservation</h2>
+            <form id="reservation-form">
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="reservation-date">Reservation Date:</label>
+                    <input type="date" id="reservation-date" name="reservation-date" required>
+                </div>
+                <button type="submit" class="submit-btn">Reserve Now</button>
+            </form>
+            <div id="confirmation-message"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Ashrakat Café  | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
